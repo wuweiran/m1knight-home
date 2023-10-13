@@ -1,0 +1,29 @@
+{
+  "m1kight logo": "M1Kight logo",
+  "select lang": "Select language",
+  "lang": {
+    "en": "English",
+    "zh": "Chinese"
+  },
+  "nav": {
+    "show side bar": "Show navigation bar",
+    "hide side bar": "Hide navigation bar",
+    "home": "Home",
+    "service": "Our services",
+    "contact": "Contact us"
+  },
+  "home": {
+    "welcome to": "Welcome to",
+    "slogan": "Dedicated to practical problem solving."
+  },
+  "service": {
+    "overview": "Our company is a leading provider of cutting-edge solutions for various technical challenges. Whether you need help with AI-powered applications, creative and innovative development projects, quantitative financial software, or maintenance service for old software projects, we have the expertise and experience to deliver the best results. We work with individuals and organizations of all sizes and sectors, offering customized and cost-effective solutions that meet your specific needs and goals."
+  },
+  "contact": {
+    "overview": "We're always happy to hear from you and answer any questions you may have. Whether you want to learn more about our products and services, give us some feedback, or collaborate with us on a project, you can reach out to us anytime.",
+    "contact person": "Contact person",
+    "ceo name": "Anthony Wu",
+    "ceo": "Chief Executive Officer"
+  },
+  "m1knight company name": "M1Knight Technology Co, Ltd."
+}

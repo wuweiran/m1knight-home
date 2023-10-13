@@ -1,0 +1,29 @@
+{
+  "m1kight logo": "M1Kight标志",
+  "select lang": "选择语言",
+  "lang": {
+    "en": "英语 / English",
+    "zh": "汉语 / Chinese"
+  },
+  "nav": {
+    "show side bar": "显示导航栏",
+    "hide side bar": "隐藏导航栏",
+    "home": "首页",
+    "service": "公司业务",
+    "contact": "联系方式"
+  },
+  "home": {
+    "welcome to": "欢迎来到",
+    "slogan": "致力于解决实际问题。"
+  },
+  "service": {
+    "overview": "我们公司是各种技术挑战的领先解决方案提供商。无论您需要AI驱动的应用、创意和创新开发项目、量化金融软件，还是维护旧软件项目的服务，我们都拥有交付最佳结果的专业知识和经验。我们与各种规模和领域的个人和组织合作，提供定制的、具有成本效益的解决方案，以满足您的特定需求和目标。"
+  },
+  "contact": {
+    "overview": "我们始终乐意听取你的意见并回答任何可能的问题。无论你想更深入了解我们的产品和服务，提供反馈，还是与我们在项目上合作，你随时都可以联系我们。",
+    "contact person": "联系人",
+    "ceo name": "吴蔚然",
+    "ceo": "首席执行官"
+  },
+  "m1knight company name": "M1Knight 科技有限责任公司"
+}
