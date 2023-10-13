@@ -16,7 +16,7 @@ import { useTranslation } from "react-i18next";
 const useStyles = makeStyles({
   root: {
     backgroundColor: tokens.colorNeutralBackground1,
-    boxShadow: tokens.shadow2,
+    boxShadow: tokens.shadow4,
   },
 });
 

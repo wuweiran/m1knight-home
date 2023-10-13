@@ -8,6 +8,7 @@ const useStyles = makeStyles({
     fontWeight: tokens.fontWeightBold,
     textTransform: "uppercase",
     color: tokens.colorNeutralForeground1,
+    marginTop: tokens.spacingVerticalM,
     marginBottom: tokens.spacingVerticalM,
   },
   brand: {
