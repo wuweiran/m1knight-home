@@ -29,8 +29,9 @@ const Header = () => {
 
   const onLanguageSelect = (_: unknown, data: SelectOnChangeData) => {
     const selected = data.value;
-    i18n.changeLanguage(selected);
-    setSelectedLanguage(selected);
+    void i18n.changeLanguage(selected).then(() => {
+      setSelectedLanguage(selected);
+    });
   };
 
   const onClickShowSideBar = () => {
