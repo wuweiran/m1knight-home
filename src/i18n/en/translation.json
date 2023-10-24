@@ -21,9 +21,11 @@
   },
   "contact": {
     "overview": "We're always happy to hear from you and answer any questions you may have. Whether you want to learn more about our products and services, give us some feedback, or collaborate with us on a project, you can reach out to us anytime.",
-    "contact person": "Contact person",
+    "contact info": "Contact information",
     "ceo name": "Anthony Wu",
-    "ceo": "Chief Executive Officer"
+    "ceo": "Chief Executive Officer",
+    "wechat": "WeChat ID: anthonywu",
+    "tel": "Phone number: (+86)13052568891"
   },
   "m1knight company name": "M1Knight Technology Co, Ltd."
 }
