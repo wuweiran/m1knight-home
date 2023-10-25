@@ -196,12 +196,6 @@ header {
   justify-content: space-between;
 }
 
-@media (min-width: 1140px) {
-  .nav .logo-search-container {
-    column-gap: 75px;
-  }
-}
-
 .select-lang {
   display: flex;
   align-items: center;
@@ -306,12 +300,6 @@ nav {
   column-gap: 8px;
   margin-bottom: 46px;
   height: 39px;
-}
-
-.offscreen-top.logo-search-container {
-  display: flex;
-  align-items: center;
-  column-gap: 100px;
 }
 
 @media (min-width: 1140px) {

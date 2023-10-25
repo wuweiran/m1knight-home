@@ -1,4 +1,4 @@
-import logo from "/m1kight.svg";
+import logo from "/m1knight.svg";
 import {
   Select,
   Image,
@@ -50,7 +50,7 @@ const Header = () => {
           <PanelLeftExpand24Regular />
         </button>
         <div className="flex links">
-          <Image src={logo} height={100} title={t("m1kight logo")} />
+          <Image src={logo} height={100} title={t("m1knight logo")} />
           <div className="select-lang">
             <Globe24Regular />
             <Select

@@ -37,7 +37,7 @@ const Home = () => {
         {t("home.welcome to")}
       </Text>
       <Text as="h1" className={styles.brand}>
-        M1Kight
+        M1Knight
       </Text>
       <Text as="h2" className={styles.slogan}>
         {t("home.slogan")}
