@@ -50,7 +50,7 @@ const Header = () => {
           <PanelLeftExpand24Regular />
         </button>
         <div className="flex links">
-          <Image src={logo} height={100} title={t("m1knight logo")} />
+          <Image src={logo} height={36} title={t("m1knight logo")} />
           <div className="select-lang">
             <Globe24Regular />
             <Select
