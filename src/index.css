@@ -228,25 +228,9 @@ header {
     justify-content: space-between;
   }
 
-  .footer-links {
-    line-height: 21px;
-  }
-
-  .footer-links font {
-    size: 16px;
-  }
-
   .footer-bottom {
     display: flex;
     column-gap: 0.5em;
-  }
-
-  .external-links {
-    margin: 0;
-  }
-
-  .external-links a {
-    padding: 0;
   }
 }
 
