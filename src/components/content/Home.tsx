@@ -12,8 +12,8 @@ const useStyles = makeStyles({
     marginBottom: tokens.spacingVerticalM,
   },
   brand: {
-    fontSize: "70px",
-    lineHeight: "100px",
+    fontSize: tokens.lineHeightHero1000,
+    lineHeight: tokens.lineHeightHero1000,
     fontWeight: tokens.fontWeightBold,
     color: tokens.colorNeutralForeground1,
     marginBottom: tokens.spacingVerticalM,
