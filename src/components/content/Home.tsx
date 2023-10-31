@@ -12,7 +12,7 @@ const useStyles = makeStyles({
     marginBottom: tokens.spacingVerticalM,
   },
   brand: {
-    fontSize: tokens.lineHeightHero1000,
+    fontSize: `min(${tokens.lineHeightHero1000},15vw)`,
     lineHeight: tokens.lineHeightHero1000,
     fontWeight: tokens.fontWeightBold,
     color: tokens.colorNeutralForeground1,
