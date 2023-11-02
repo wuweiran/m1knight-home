@@ -3,6 +3,10 @@ import { useTranslation } from "react-i18next";
 
 const useStyles = makeStyles({
   root: { backgroundColor: tokens.colorNeutralBackground3 },
+  divider: {
+    marginTop: tokens.spacingVerticalXXL,
+    marginBottom: tokens.spacingVerticalXXL,
+  }
 });
 
 const Footer = () => {
@@ -15,7 +19,7 @@ const Footer = () => {
         <section className="footer-top flex">
           {t("m1knight company name")}
         </section>
-        <Divider className="sep" />
+        <Divider className={styles.divider} />
         <section className="footer-bottom"> © Amobsi 2023 </section>
       </div>
     </footer>

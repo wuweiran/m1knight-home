@@ -68,7 +68,6 @@ header {
   top: 0;
   bottom: 0;
   left: calc(-1 * var(--offscreen-sidebar-width));
-  transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   min-height: 100vh;
   max-height: 100vh;
   overflow-y: auto;
@@ -213,14 +212,6 @@ header {
   flex-wrap: wrap;
   row-gap: 1em;
   text-align: center;
-}
-
-.ext {
-  column-gap: 8px;
-}
-
-.sep {
-  margin: 24px 0;
 }
 
 @media (min-width: 440px) {

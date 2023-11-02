@@ -4,6 +4,9 @@ import {
   Tab,
   TabList,
   TabValue,
+  makeStyles,
+  mergeClasses,
+  tokens,
 } from "@fluentui/react-components";
 import { PanelLeftContract24Regular } from "@fluentui/react-icons";
 import React from "react";
@@ -12,7 +15,16 @@ import Contact from "./content/Contact.tsx";
 import { useTranslation } from "react-i18next";
 import Home from "./content/Home.tsx";
 
+const useStyles = makeStyles({
+  sideBar: {
+    transitionProperty: "left",
+    transitionDuration: tokens.durationSlow,
+    transitionTimingFunction: tokens.curveEasyEase,
+  },
+});
+
 const Content = () => {
+  const style = useStyles();
   const { t } = useTranslation();
 
   const [selectedValue, setSelectedValue] = React.useState<TabValue>("home");
@@ -27,7 +39,7 @@ const Content = () => {
 
   return (
     <div className="wrap content-width">
-      <aside className="sidebar">
+      <aside className={mergeClasses("sidebar", style.sideBar)}>
         <div className="sidebar-content">
           <div className="offscreen-top">
             <button
