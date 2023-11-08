@@ -7,10 +7,7 @@ import {
   makeStyles,
   Button,
 } from "@fluentui/react-components";
-import {
-  PanelLeftExpandRegular,
-  Globe24Regular,
-} from "@fluentui/react-icons";
+import { PanelLeftExpandRegular, Globe24Regular } from "@fluentui/react-icons";
 import React from "react";
 import { useTranslation } from "react-i18next";
 
@@ -47,16 +44,16 @@ const Header = () => {
   return (
     <header className={styles.root}>
       <nav className="nav content-width">
-        <Button
-          icon={<PanelLeftExpandRegular />}
-          className="toggler"
-          title={t("nav.show side bar")}
-          as="button"
-          onClick={onClickShowSideBar}
-          appearance="transparent"
-          size="large"
-        />
-
+        <div className="toggler">
+          <Button
+            icon={<PanelLeftExpandRegular />}
+            title={t("nav.show side bar")}
+            as="button"
+            onClick={onClickShowSideBar}
+            appearance="transparent"
+            size="large"
+          />
+        </div>
         <div className="flex links">
           <Image
             src={logo}

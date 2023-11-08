@@ -45,7 +45,6 @@ const Content = () => {
           <div className="offscreen-top">
             <Button
               icon={<PanelLeftContractRegular />}
-              className="toggler"
               title={t("nav.hide side bar")}
               as="button"
               onClick={onClickHideSideBar}
