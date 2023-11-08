@@ -9,7 +9,7 @@ import {
   mergeClasses,
   tokens,
 } from "@fluentui/react-components";
-import { PanelLeftContract24Regular } from "@fluentui/react-icons";
+import { PanelLeftContractRegular } from "@fluentui/react-icons";
 import React from "react";
 import Service from "./content/Service.tsx";
 import Contact from "./content/Contact.tsx";
@@ -44,7 +44,7 @@ const Content = () => {
         <div className="sidebar-content">
           <div className="offscreen-top">
             <Button
-              icon={<PanelLeftContract24Regular />}
+              icon={<PanelLeftContractRegular />}
               className="toggler"
               title={t("nav.hide side bar")}
               as="button"

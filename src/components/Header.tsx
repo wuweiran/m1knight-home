@@ -8,7 +8,7 @@ import {
   Button,
 } from "@fluentui/react-components";
 import {
-  PanelLeftExpand24Regular,
+  PanelLeftExpandRegular,
   Globe24Regular,
 } from "@fluentui/react-icons";
 import React from "react";
@@ -48,7 +48,7 @@ const Header = () => {
     <header className={styles.root}>
       <nav className="nav content-width">
         <Button
-          icon={<PanelLeftExpand24Regular />}
+          icon={<PanelLeftExpandRegular />}
           className="toggler"
           title={t("nav.show side bar")}
           as="button"

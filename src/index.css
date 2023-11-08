@@ -8,6 +8,12 @@ main {
   --side-padding: 32px;
 }
 
+@media (max-width: 440px) {
+  :root {
+    --side-padding: 16px;
+  }
+}
+
 body {
   display: flex;
   position: relative;
