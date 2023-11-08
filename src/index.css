@@ -30,11 +30,6 @@ body {
   display: flex;
 }
 
-.tg {
-  display: flex;
-  flex-direction: column;
-}
-
 header {
   padding: 20px 0;
   display: flex;
@@ -195,12 +190,6 @@ header {
   justify-content: space-between;
 }
 
-.select-lang {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
 .footer-top,
 .footer-bottom {
   justify-content: space-between;
@@ -241,20 +230,6 @@ header {
     background-color: rgba(var(--colorNeutralBackground1), 0.5);
     border-right: 1px solid rgb(224, 224, 224);
   }
-}
-
-.toggler {
-  border: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: none;
-  cursor: pointer;
-}
-
-.toggler:hover {
-  opacity: 0.8;
 }
 
 @media (min-width: 1140px) {

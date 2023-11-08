@@ -1,4 +1,5 @@
 import {
+  Button,
   SelectTabData,
   SelectTabEvent,
   Tab,
@@ -42,14 +43,15 @@ const Content = () => {
       <aside className={mergeClasses("sidebar", style.sideBar)}>
         <div className="sidebar-content">
           <div className="offscreen-top">
-            <button
+            <Button
+              icon={<PanelLeftContract24Regular />}
               className="toggler"
               title={t("nav.hide side bar")}
-              type="button"
+              as="button"
               onClick={onClickHideSideBar}
-            >
-              <PanelLeftContract24Regular />
-            </button>
+              appearance="transparent"
+              size="large"
+            />
           </div>
           <nav>
             <TabList

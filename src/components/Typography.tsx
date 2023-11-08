@@ -2,6 +2,11 @@ import { makeStyles, typographyStyles, Text } from "@fluentui/react-components";
 import { tokens } from "@fluentui/react-theme";
 
 const useTypographyStyles = makeStyles({
+  root: {
+    display: "flex",
+    flexDirection: "column",
+  },
+
   heading1: {
     ...typographyStyles.display,
     marginBottom: tokens.spacingVerticalXXL,
@@ -28,7 +33,9 @@ const useTypographyStyles = makeStyles({
 });
 
 export const Typography = (props: React.PropsWithChildren) => {
-  return <div className="tg">{props.children}</div>;
+  const styles = useTypographyStyles();
+
+  return <article className={styles.root}>{props.children}</article>;
 };
 
 export const Heading1 = (props: React.PropsWithChildren) => {

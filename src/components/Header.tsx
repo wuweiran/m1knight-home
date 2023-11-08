@@ -5,6 +5,7 @@ import {
   SelectOnChangeData,
   tokens,
   makeStyles,
+  Button,
 } from "@fluentui/react-components";
 import {
   PanelLeftExpand24Regular,
@@ -17,6 +18,11 @@ const useStyles = makeStyles({
   root: {
     backgroundColor: tokens.colorNeutralBackground1,
     boxShadow: tokens.shadow4,
+  },
+  selectLanguage: {
+    display: "flex",
+    alignItems: "center",
+    columnGap: tokens.spacingHorizontalS,
   },
 });
 
@@ -41,14 +47,16 @@ const Header = () => {
   return (
     <header className={styles.root}>
       <nav className="nav content-width">
-        <button
+        <Button
+          icon={<PanelLeftExpand24Regular />}
           className="toggler"
           title={t("nav.show side bar")}
-          type="button"
+          as="button"
           onClick={onClickShowSideBar}
-        >
-          <PanelLeftExpand24Regular />
-        </button>
+          appearance="transparent"
+          size="large"
+        />
+
         <div className="flex links">
           <Image
             src={logo}
@@ -57,7 +65,7 @@ const Header = () => {
             alt={t("m1knight logo")}
             title={t("m1knight logo")}
           />
-          <div className="select-lang">
+          <div className={styles.selectLanguage}>
             <Globe24Regular />
             <Select
               value={selectedLanguage}
