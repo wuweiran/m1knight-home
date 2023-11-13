@@ -5,7 +5,6 @@ import Content from "./components/Content.tsx";
 function App() {
   return (
     <>
-      <div className="sidebar-blur"></div>
       <Header />
       <Content />
       <Footer />

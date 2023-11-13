@@ -226,19 +226,6 @@ header {
 }
 
 @media (min-width: 1140px) {
-  body .sidebar-blur {
-    position: fixed;
-    z-index: -5;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: calc(var(--sidebar-width) + 2 * var(--side-padding) - 4px);
-    background-color: rgba(var(--colorNeutralBackground1), 0.5);
-    border-right: 1px solid rgb(224, 224, 224);
-  }
-}
-
-@media (min-width: 1140px) {
   .toggler {
     display: none;
   }
