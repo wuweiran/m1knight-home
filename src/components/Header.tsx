@@ -7,7 +7,10 @@ import {
   makeStyles,
   Button,
 } from "@fluentui/react-components";
-import { PanelLeftExpandRegular, Globe24Regular } from "@fluentui/react-icons";
+import {
+  PanelLeftExpandRegular,
+  LocalLanguage24Regular,
+} from "@fluentui/react-icons";
 import React from "react";
 import { useTranslation } from "react-i18next";
 
@@ -63,7 +66,7 @@ const Header = () => {
             title={t("m1knight logo")}
           />
           <div className={styles.selectLanguage}>
-            <Globe24Regular />
+            <LocalLanguage24Regular />
             <Select
               value={selectedLanguage}
               onChange={onLanguageSelect}
