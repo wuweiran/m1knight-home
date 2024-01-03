@@ -21,6 +21,14 @@ const useStyles = makeStyles({
     transitionProperty: "left",
     transitionDuration: tokens.durationSlow,
     transitionTimingFunction: tokens.curveEasyEase,
+    backgroundColor: tokens.colorNeutralBackground1,
+    borderRightWidth: "1px",
+    borderRightStyle: "solid",
+    borderRightColor: tokens.colorNeutralStroke2,
+    "@media (min-width: 1140px)": {
+      backgroundColor: undefined,
+      borderRightWidth: 0,
+    }
   },
 });
 
