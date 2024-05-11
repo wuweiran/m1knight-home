@@ -28,7 +28,7 @@ const useStyles = makeStyles({
     "@media (min-width: 1140px)": {
       backgroundColor: undefined,
       borderRightWidth: 0,
-    }
+    },
   },
 });
 

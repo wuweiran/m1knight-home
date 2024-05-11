@@ -6,7 +6,7 @@ const useStyles = makeStyles({
   divider: {
     marginTop: tokens.spacingVerticalXXL,
     marginBottom: tokens.spacingVerticalXXL,
-  }
+  },
 });
 
 const Footer = () => {
