@@ -20,7 +20,7 @@ const Footer = () => {
           {t("m1knight company name")}
         </section>
         <Divider className={styles.divider} />
-        <section className="footer-bottom"> © Amobsi 2023 </section>
+        <section className="footer-bottom"> © Amobsi 2024 </section>
       </div>
     </footer>
   );
